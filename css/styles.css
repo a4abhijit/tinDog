@@ -1,0 +1,174 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ----Section-Coloring------ */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: white;
+}
+
+/* --Title Section--- */
+#title{
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% ;
+    padding-bottom: 0%;
+}
+ 
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.firstCol{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.row{
+    margin: 2%;
+    margin-bottom: 0%;
+}
+
+.download-button{
+    margin: 3% 1% 0% 1%;
+}
+.title-image{
+    max-width: 60%;
+    margin: 10px 50px 0 ;
+    position: absolute;
+    transform: rotate(25deg);
+}
+
+/* --Navigation Bar in Title Section--- */
+
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-item{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 50px;
+    padding: 5px;
+}
+
+/* --Features Section--- */
+#features{
+    
+    padding: 7% 15%;
+    position: relative;
+    
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+    width: 80%;
+    margin: 0 auto 0;
+}
+.col-md-4{
+    padding: 2%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 20px;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* --Testmonials Section-- */
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.testimonials-img{
+    border-radius: 100%;
+    margin: auto;
+    width: 10%;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+/*   ---Press Section--   */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 5%;
+    
+}
+.press-img{
+    margin: 0 3% ;
+    width: 12%;
+
+}
+
+/* ---------Pricing Section-------------- */
+#pricing{
+    padding: 50px;
+}
+
+.primary-column{
+    padding: 3% 2%;
+}
+
+/* -- Call to Action -- */
+#cta{
+    padding: 7% 10%;
+}
+.ctaHeader{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 75%;
+}
+
+/******-- Footer --*****/
+#footer{
+    padding: 3% 15% 1%;
+}
+.font-awesome-icon{
+    color: black;
+    margin: 1% 1%;
+}
+
+/*** ----- Media Query BreakPoints---  ****/
+@media (max-width : 800px){
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    
+    .row{
+        text-align: center;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .ctaHeader{
+        font-size: 1.7rem;
+    }
+}
